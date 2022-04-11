@@ -6,7 +6,7 @@
 // Solidity program to
 // demonstrate
 // Single Inheritance
-pragma solidity >=0.4.22 <0.6.0;
+pragma solidity >=0.4.22 <0.8.0;
 
 // Defining contract
 contract parent{
@@ -28,6 +28,7 @@ contract parent{
 // Defining child contract
 contract child is parent{
 	
+
 	// Defining external function
 	// to return value of
 	// internal state variable sum
